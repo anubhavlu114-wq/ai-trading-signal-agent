@@ -83,7 +83,7 @@ Replace the placeholders for:
 - Twelve Data
 - NewsAPI
 
-**Never publish real API keys, Telegram bot tokens, or credentials on GitHub.**
+
 
 ## Current Limitations
 
@@ -103,19 +103,20 @@ The workflow also does not place live orders.
 - Retry/error handling
 - Performance metrics
 
-## Project Structure
+## 🚀 Live Demo
 
-```text
-ai-trading-signal-agent/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── workflow/
-│   └── ai-trading-signal-agent.json
-├── docs/
-│   └── architecture.md
-└── screenshots/
-```
+**Telegram Bot:**  
+https://t.me/MharoshantilalBot
+
+### How to use
+
+1. Open the Telegram bot.
+2.Send stock symbol
+3. Send a stock symbol such as `AAPL`, `NVDA`, or `TSLA`.
+4. The workflow retrieves multi-timeframe market data and recent financial news.
+5. AI agents analyze the combined data and return a trading signal.
+
+> **Note:** This is an educational project. It generates trading analysis/signals and does not execute live trades.
 
 ## Disclaimer
 
